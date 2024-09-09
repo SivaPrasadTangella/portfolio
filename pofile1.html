@@ -24,7 +24,7 @@
         header {
             background: #333;
             color: #fff;
-            padding: 20px 0;
+            
             text-align: center;
             position: fixed;
             width: 100%;
@@ -173,6 +173,14 @@
             border-radius: 4px;
             background: #ddd;
         }
+        header div{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+        }
 
         @media (max-width: 800px) {
             header img {
@@ -205,14 +213,18 @@
     <header>
         
         <nav>
-            <img src="badboy.jpg" alt="Siva Tangella">
-            <a href="#home">Home</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
-        </nav>
+            <div>
+                <img src="badboy.jpg" alt="Siva Tangella">
+         
+                <a href="#home">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+    </nav>
+    
     </header>
 
     <main>
